@@ -57,12 +57,13 @@ body {
     font-size: 16px; 
     line-height: 1.6; 
     color: black; 
-    background-color: #FFF4F7; 
+    background-color: #FFFFFF; 
 }
 
 /* Nav Bar */ 
 header { 
-    background-color: #FFF4F7; 
+    background-color: #ffffff; 
+    /* background-color: #FFF4F7;  Potential background color*/
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -86,7 +87,8 @@ header {
 .navlinks { 
     float: right;
     font-family: 'Hind', sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
+    vertical-align: center;
 }
 
 .navlinks a:hover { 
@@ -103,8 +105,9 @@ header {
 
 /* General */
 section { 
-    max-width: 1000px; 
+    width: 1000px; 
     margin: auto;
+    justify-content: center;
 }
 /* Home Page */
 .hero { 
@@ -115,6 +118,15 @@ section {
     font-size: 2em; 
     font-weight: 700;
     margin-bottom: 32px; 
+}
+
+.project-section { 
+    display: flex; 
+    flex-direction: row; 
+}
+
+.project { 
+    padding: 0 60px 60px 0;
 }
 /* Work Page */
 
