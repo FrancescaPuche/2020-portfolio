@@ -126,7 +126,16 @@ section {
 }
 
 .project { 
-    padding: 0 60px 60px 0;
+    padding: 0 64px 40px 0;
+}
+
+.project-title { 
+    font-weight: 700; 
+    font-size: 1.5em;
+}
+
+.project-description { 
+    font-family: 'Hind', sans-serif;
 }
 /* Work Page */
 
