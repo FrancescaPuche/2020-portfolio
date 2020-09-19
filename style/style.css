@@ -106,12 +106,12 @@ header {
 /* General */
 section { 
     width: 1000px; 
-    margin: auto;
-    justify-content: center;
+    margin: 120px auto 120px auto;
 }
 /* Home Page */
-.hero { 
-    margin: 180px 0 120px 0;
+#hero-text { 
+    font-family: 'Hind', sans-serif;
+    font-size: 1.5em;
 }
 
 .section-title { 
@@ -146,5 +146,27 @@ section {
 /* Footer */
 footer { 
     max-width: 1000px; 
-    margin: auto; 
+    margin: 120px auto 120px auto; 
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+footer h4 { 
+    margin-bottom: 20px; 
+}
+
+footer a { 
+    text-decoration: none;
+    padding-right: 16px;
+    color: black;
+}
+
+footer a:hover { 
+    color: #FF0068;
+}
+
+.footer-socials { 
+    font-family: 'Hind', sans-serif; 
+    font-size: 1em;
+    font-weight: 400;
 }
