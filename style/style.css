@@ -73,7 +73,7 @@ header {
 
 .navbar { 
     overflow: hidden; 
-    padding: 1em 3em;
+    padding: 20px 40px;
     z-index: 1; 
 }
 
@@ -88,7 +88,6 @@ header {
 
 .navlinks { 
     float: right;
-    /* font-family: 'Hind', sans-serif; */
     font-weight: 400;
     vertical-align: baseline;
 }
@@ -112,79 +111,108 @@ header {
 
 /* General */
 .container { 
-    width: 75%;
+    width: 100%;
     margin: auto;
 }
 
-section{ 
-    margin: 10em;
+section { 
+    padding: 120px auto;
+    margin: 120px;
 }
 
-/* Home Page */
-
-#hero { 
- background-color: #FF0068;
- padding: 3em;
+img { 
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
 }
 
-#hero-text { 
-    /* font-family: 'Hind', sans-serif; */
+h2 { 
+    font-size: 2em; 
+    font-weight: 700;
+}
+
+h4 { 
     font-size: 1.5em;
+    font-weight: 700;
+}
+
+p { 
+    font-size: 1.25em;
 }
 
 .section-title { 
-    font-size: 3em; 
-    font-weight: 700;
-    margin-bottom: 1em;
+    vertical-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-/* .project-section { 
-    display: flex; 
-    flex-direction: ; 
-} */
-
-.project { 
-    /* margin: 40px auto 120px auto; */
-    width: 100%;
-    padding: 3em;
-    margin: 3em;
+#button { 
+    padding: 20px; 
+    background-color: bisque;
+    text-decoration: none; 
+    color: black;
+    font-weight: 700;
+    border-radius: 40px;
     align-content: center;
 }
 
+/* Hero */
+
+#hero { 
+    padding: 120px 40px;
+}
+
+
+/* Homepage Project Section */
+
+.project { 
+    width: 100%;
+}
+
+#project-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin-left: 4em;
+    align-items: center;
+}
+
+.project-info { 
+    width: 100%;
+    padding: 100px 50px 100px 50px;
+}
 
 .project-title { 
-    font-weight: 700; 
-    font-size: 1.5em;
+    margin-bottom: 40px;
+    text-align: justify;
+    justify-content: center;
 }
 
 .project-description { 
-    /* font-family: 'Hind', sans-serif; */
-    float: right;
+    margin-bottom: 50px;
 }
 
-#project-one { 
-    background-color: bisque;
+.project-img {
+    float: left;
+    margin: 2em;
 }
-
-#project-two { 
-    background-color: #FF0068;
-}
-
-#project-three { 
-    background-color: bisque;
-}
-
-#project-four { 
-    background-color: #FF0068;
-}
-
-/* Work Page */
 
 /* About Me Page */
 
-/* Project 1 Page */
+#about-pic { 
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+
 
 /* Footer */
+
 footer { 
     width: 100%; 
     font-weight: 700;
@@ -216,3 +244,9 @@ footer a:hover {
     font-size: 1em;
     font-weight: 400;
 }
+
+
+
+
+
+
