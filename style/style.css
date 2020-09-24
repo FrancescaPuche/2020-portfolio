@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.6;
 }
 ol, ul {
 	list-style: none;
@@ -53,9 +53,10 @@ table {
 
 /* Body */
 body {
-    font-family: 'Frank Ruhl Libre', serif;
+    /* font-family: 'Frank Ruhl Libre', serif; */
+    font-family: 'Hind', sans-serif;
     font-size: 16px; 
-    line-height: 1.6; 
+    line-height: 1.8; 
     color: black; 
     background-color: #FFFFFF; 
 }
@@ -67,11 +68,12 @@ header {
     position: fixed; 
     top: 0; 
     width: 100%; 
+    background-color: bisque;
 }
 
 .navbar { 
     overflow: hidden; 
-    padding: 20px 40px;
+    padding: 1em 3em;
     z-index: 1; 
 }
 
@@ -81,14 +83,14 @@ header {
     text-decoration: none; 
     padding-right: 30px;
     color: black; 
-    text-align: center; 
+    vertical-align: baseline;
 }
 
 .navlinks { 
     float: right;
-    font-family: 'Hind', sans-serif;
+    /* font-family: 'Hind', sans-serif; */
     font-weight: 400;
-    vertical-align: center;
+    vertical-align: baseline;
 }
 
 .navlinks a:hover { 
@@ -101,33 +103,54 @@ header {
 
 #logo { 
     font-weight: 700;
+    font-size: 1.5em;
+}
+
+#nav-work { 
+    font-weight: 700; 
 }
 
 /* General */
-section { 
-    width: 1000px; 
-    margin: 120px auto 120px auto;
+.container { 
+    width: 75%;
+    margin: auto;
 }
+
+section{ 
+    margin: 10em;
+}
+
 /* Home Page */
+
+#hero { 
+ background-color: #FF0068;
+ padding: 3em;
+}
+
 #hero-text { 
-    font-family: 'Hind', sans-serif;
+    /* font-family: 'Hind', sans-serif; */
     font-size: 1.5em;
 }
 
 .section-title { 
-    font-size: 2em; 
+    font-size: 3em; 
     font-weight: 700;
-    margin-bottom: 32px; 
+    margin-bottom: 1em;
 }
 
-.project-section { 
+/* .project-section { 
     display: flex; 
-    flex-direction: row; 
-}
+    flex-direction: ; 
+} */
 
 .project { 
-    padding: 0 64px 40px 0;
+    /* margin: 40px auto 120px auto; */
+    width: 100%;
+    padding: 3em;
+    margin: 3em;
+    align-content: center;
 }
+
 
 .project-title { 
     font-weight: 700; 
@@ -135,8 +158,26 @@ section {
 }
 
 .project-description { 
-    font-family: 'Hind', sans-serif;
+    /* font-family: 'Hind', sans-serif; */
+    float: right;
 }
+
+#project-one { 
+    background-color: bisque;
+}
+
+#project-two { 
+    background-color: #FF0068;
+}
+
+#project-three { 
+    background-color: bisque;
+}
+
+#project-four { 
+    background-color: #FF0068;
+}
+
 /* Work Page */
 
 /* About Me Page */
@@ -145,19 +186,24 @@ section {
 
 /* Footer */
 footer { 
-    max-width: 1000px; 
-    margin: 120px auto 120px auto; 
-    font-size: 1.5em;
+    width: 100%; 
     font-weight: 700;
+    background-color: bisque;
+}
+
+div.footer-info { 
+    padding: 3em ;
+
 }
 
 footer h4 { 
-    margin-bottom: 20px; 
+    margin-bottom: 1em; 
+    font-size: 1.5em;
 }
 
 footer a { 
     text-decoration: none;
-    padding-right: 16px;
+    padding-right: 1em;
     color: black;
 }
 
@@ -166,7 +212,7 @@ footer a:hover {
 }
 
 .footer-socials { 
-    font-family: 'Hind', sans-serif; 
+    /* font-family: 'Hind', sans-serif;  */
     font-size: 1em;
     font-weight: 400;
 }
