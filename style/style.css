@@ -58,17 +58,16 @@ body {
     font-size: 16px; 
     line-height: 1.8; 
     color: black; 
-    background-color: #FFFFFF; 
+    background-color: white; 
 }
 
 /* Nav Bar */ 
-header { 
-    background-color: #ffffff; 
+header {
     /* background-color: #FFF4F7;  Potential background color*/
     position: fixed; 
     top: 0; 
     width: 100%; 
-    background-color: bisque;
+    background-color: white;
 }
 
 .navbar { 
@@ -82,7 +81,8 @@ header {
     font-size: 1.5em; 
     text-decoration: none; 
     padding-right: 30px;
-    color: black; 
+    color: #000000;
+    /* color: #00dba6;  */
     vertical-align: baseline;
 }
 
@@ -103,6 +103,7 @@ header {
 #logo { 
     font-weight: 700;
     font-size: 1.5em;
+    color: black;
 }
 
 #nav-work { 
@@ -147,14 +148,15 @@ p {
     margin-bottom: 40px;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    color: #00A3FF;
 }
 
 #button { 
     padding: 20px; 
-    background-color: bisque;
+    background-color: #FF0068;
     text-decoration: none; 
-    color: black;
+    color: white;
     font-weight: 700;
     border-radius: 40px;
     align-content: center;
@@ -198,17 +200,34 @@ p {
 
 .project-img {
     float: left;
-    margin: 2em;
+    margin: 40px;
 }
 
 /* About Me Page */
 
 #about-pic { 
     margin-top: 40px;
+    margin-bottom: 40px;
     width: 100%;
 }
 
+#about-button-div { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 120px auto;
 
+}
+
+#about-button { 
+    padding: 20px; 
+    background-color: #FF0068;
+    text-decoration: none; 
+    color: white;
+    font-weight: 700;
+    border-radius: 40px;
+    margin: 0;
+}
 
 
 /* Footer */
@@ -216,7 +235,8 @@ p {
 footer { 
     width: 100%; 
     font-weight: 700;
-    background-color: bisque;
+    background-color: black;
+    color: white;
 }
 
 div.footer-info { 
@@ -232,7 +252,7 @@ footer h4 {
 footer a { 
     text-decoration: none;
     padding-right: 1em;
-    color: black;
+    color: #00dba6;
 }
 
 footer a:hover { 
